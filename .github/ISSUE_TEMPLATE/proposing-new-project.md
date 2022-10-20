@@ -16,15 +16,6 @@ assignees: ''
 
 ---
 
----
-name: PWP Issue Template
-about: This is the issue template that is going to be used while creating any issues
-  in this repo.
-title: ''
-labels: ''
-assignees: ''
-
----
 
 ### Play With Python Repository (Proposing new issue)
 :red_circle: **Project Title** : </br>
