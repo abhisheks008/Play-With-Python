@@ -7,15 +7,6 @@ assignees: ''
 
 ---
 
----
-name: PWP_issue_template
-about: Describe this issue template's purpose here.
-title: ''
-labels: Up For Grabs
-assignees: ''
-
----
-
 
 ### Play With Python Repository (Proposing new issue)
 :red_circle: **Project Title** : </br>
