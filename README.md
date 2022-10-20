@@ -5,11 +5,26 @@
 
 <img src="https://github.com/abhisheks008/Play-With-Python/blob/main/Assets/Navy%20%26%20Yellow%20Modern%20Business%20Facebook%20Cover.png">
 
+## 🔴 Welcome contributors!
 Gaming is really a workout for your mind disguised as fun. Studies have shown that playing video games regularly may increase gray matter in the brain and boost brain connectivity. Gray matter is associated with muscle control, memories, perception, and spatial navigation. Video games can also teach important skills or address serious issues, organizations such as Games For Change promote the use of games for education and social action, and often involve young people in the creation of games they can use to express themselves on important issues and current events. Some medical professionals, such as Doctor Kourosh Dini, also feel that “age appropriate multi-player video games can allow children to learn how other people think - a key aspect of empathy. Games can also help a child become more comfortable with new and ever progressing technology.
 </br>
 
 **As gaming is one of the essential part of our life, and at the same time developing new skills is another thing we need to focus on. Hence, to do all these things altogether I've decided to create an open source repository, in which various contributors will contribute in different games based on Python programming language. Play With Python is that one stop solution which will provide you fun and development at the same time!**
+*************************************************************************
+## Structure of the Projects 📝
+- `main.py` - This is the main Python file for developing each game here in this repository.
+- `README.md` - This is face of your game project. Follow the [template](https://github.com/abhisheks008/Play-With-Python/blob/main/.github/readme_template.md) and represent your project accordingly.
+- `requirements.txt` - This file contains all the required libraries/packages while developing this project.
+- `Images` - This folder consists the snapshots/images for showcasing the demonstration of the game you have developed.
 
+Please follow the [Code of Conduct](https://github.com/abhisheks008/Play-With-Python/blob/main/Code_of_conduct.md) and [Contributing Guidelines](https://github.com/abhisheks008/Play-With-Python/blob/main/CONTRIBUTING.md) while contributing in this project repository.
+*************************************************************************
+## 🧮 Workflow
+- Fork the repository
+- Clone your forked repository using terminal or gitbash.
+- Make changes to the cloned repository
+- Add, Commit and Push
+- Then in Github, in your cloned repository find the option to make a pull request
 *************************************************************************
 <h2>✔Project Admin</h2>
 
