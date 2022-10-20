@@ -2,11 +2,10 @@
 name: Proposing new project
 about: Propose a new issue for Play With Python repository.
 title: ''
-labels: ''
+labels: Up for Grabs
 assignees: ''
 
 ---
-
 
 ### Play With Python Repository (Proposing new issue)
 :red_circle: **Project Title** : </br>
