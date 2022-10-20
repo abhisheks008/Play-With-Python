@@ -1,5 +1,6 @@
 <div align="center">
   <h1>Play With Python🎲🎮</h1>
+  <p> Play Games! Built in Python. </p>
 </div>
 
 <img src="https://github.com/abhisheks008/Play-With-Python/blob/main/Assets/Navy%20%26%20Yellow%20Modern%20Business%20Facebook%20Cover.png">
