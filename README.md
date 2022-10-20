@@ -3,6 +3,20 @@
   <p> Play Games! Built in Python. </p>
 </div>
 
+<div align="center">
+
+![GitHub contributors](https://img.shields.io/github/contributors/abhisheks008/Play-With-Python?style=for-the-badge&color=blue)
+![GitHub Closed issues](https://img.shields.io/github/issues-closed-raw/abhisheks008/Play-With-Python?style=for-the-badge&color=brightgreen)
+![GitHub PR Open](https://img.shields.io/github/issues-pr/abhisheks008/Play-With-Python?style=for-the-badge&color=aqua)
+![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/abhisheks008/Play-With-Python?style=for-the-badge&color=blue)
+![GitHub language count](https://img.shields.io/github/languages/count/abhisheks008/Play-With-Python?style=for-the-badge&color=brightgreen)
+![GitHub top language](https://img.shields.io/github/languages/top/abhisheks008/Play-With-Python?style=for-the-badge&color=aqua)
+![GitHub last commit](https://img.shields.io/github/last-commit/abhisheks008/Play-With-Python?style=for-the-badge&color=blue)
+![GitHub Maintained](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?style=for-the-badge)
+![Github Repo Size](https://img.shields.io/github/repo-size/abhisheks008/Play-With-Python?style=for-the-badge&color=aqua)
+
+</div>
+
 <img src="https://github.com/abhisheks008/Play-With-Python/blob/main/Assets/Navy%20%26%20Yellow%20Modern%20Business%20Facebook%20Cover.png">
 
 ## 🔴 Welcome contributors!
