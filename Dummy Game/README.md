@@ -20,7 +20,7 @@ Add all the libraries needed in this project in points.
 
 **DEMONSTRATION**
 
-Demonstrate your games using snapshots/videos/GIFs. If you upload a video in YouTube you can add a link here, so that everyone can understand how to play the game.
+Demonstrate your games using snapshots/videos/GIFs. (optional: If you upload a video in YouTube you can add a link here, so that everyone can understand how to play the game.)
 
 
 **YOUR NAME**
