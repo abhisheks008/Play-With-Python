@@ -24,7 +24,7 @@ Gaming is really a workout for your mind disguised as fun. Studies have shown th
 </br>
 
 **As gaming is one of the essential part of our life, and at the same time developing new skills is another thing we need to focus on. Hence, to do all these things altogether I've decided to create an open source repository, in which various contributors will contribute in different games based on Python programming language. Play With Python is that one stop solution which will provide you fun and development at the same time!**
-*************************************************************************
+************************************************************************
 ## Structure of the Projects 📝
 - `main.py` - This is the main Python file for developing each game here in this repository.
 - `README.md` - This is face of your game project. Follow the [template](https://github.com/abhisheks008/Play-With-Python/blob/main/.github/readme_template.md) and represent your project accordingly.
