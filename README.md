@@ -24,7 +24,8 @@ Gaming is really a workout for your mind disguised as fun. Studies have shown th
 </br>
 
 **As gaming is one of the essential part of our life, and at the same time developing new skills is another thing we need to focus on. Hence, to do all these things altogether I've decided to create an open source repository, in which various contributors will contribute in different games based on Python programming language. Play With Python is that one stop solution which will provide you fun and development at the same time!**
-************************************************************************
+
+
 ## Structure of the Projects 📝
 - `main.py` - This is the main Python file for developing each game here in this repository.
 - `README.md` - This is face of your game project. Follow the [template](https://github.com/abhisheks008/Play-With-Python/blob/main/.github/readme_template.md) and represent your project accordingly.
@@ -32,14 +33,26 @@ Gaming is really a workout for your mind disguised as fun. Studies have shown th
 - `Images` - This folder consists the snapshots/images for showcasing the demonstration of the game you have developed.
 
 Please follow the [Code of Conduct](https://github.com/abhisheks008/Play-With-Python/blob/main/Code_of_conduct.md) and [Contributing Guidelines](https://github.com/abhisheks008/Play-With-Python/blob/main/CONTRIBUTING.md) while contributing in this project repository.
-*************************************************************************
+
+
 ## 🧮 Workflow
 - Fork the repository
 - Clone your forked repository using terminal or gitbash.
 - Make changes to the cloned repository
 - Add, Commit and Push
 - Then in Github, in your cloned repository find the option to make a pull request
-*************************************************************************
+
+
+## ❄️Open Source Programs!
+<table>
+<tr>
+ <td align="center">
+<a href="https://linktr.ee/ieee_igdtuw"><img src="https://media-exp1.licdn.com/dms/image/C510BAQFkiMnZdSk7UQ/company-logo_200_200/0/1550238156175?e=1675900800&v=beta&t=nqzDjqYuKHqNqagVusmoJeSTzhsYY6-QUy970s7rWlU" width=100px height=100px /><br /><sub><b>IEEE IGDTUW Week of Code</b></sub></a>
+ </td>
+</tr>
+</table>
+
+
 <h2>✔Project Admin</h2>
 
 <table>
@@ -48,8 +61,24 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/Play-With-Py
   </tr>
 </table>
 
+<h2>✨Top Contributors</h2>   
 
-****************************************************************
+Thanks goes to these Wonderful People. Contributions of any kind are welcome!🚀 
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<a href="https://github.com/abhisheks008/Play-With-Python/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=abhisheks008/Play-With-Python" />
+</a>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+
+
 
 <h2>⭐Give this Project a Star</h2>
 
