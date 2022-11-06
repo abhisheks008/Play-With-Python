@@ -36,7 +36,7 @@ Classes have been defined in the given code:
 The follwing are required :
      1) Tkinter - The GUI library (python)
      
-     2) Basics and DSA in python. 
+    
      
      
 ### DEMONSTRATION 
