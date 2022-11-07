@@ -1,3 +1,0 @@
-The required library is: 
-     
-     1) Tkinter Library (GUI) = version 8.6
