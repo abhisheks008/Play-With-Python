@@ -23,7 +23,7 @@ The moment you hit the pipes, you loose the game.
 
 **Class Required**
 
-4) Class Bird:
+  4) Class Bird:
 
   a) Initialise the velocity, height, width, gravity variables.
   
@@ -31,7 +31,7 @@ The moment you hit the pipes, you loose the game.
   
   c) move function- Calculate displacement, terminal velocity etc.
   
-5) Class Pipe: 
+  5) Class Pipe: 
 
   a) Initialise the height, width, gap, velocity etc of the base.
   
@@ -41,11 +41,11 @@ The moment you hit the pipes, you loose the game.
   
   d) collide function - If pipe and bird collide, we return to 0 Score. 
   
- 6) Class Base:
+  6) Class Base:
    
    a) move floor of the game 
    
- 7) Other functions: 
+  7) Other functions: 
 
   a) create menu screen. 
   
