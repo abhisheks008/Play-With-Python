@@ -1,0 +1,3 @@
+The required library is: 
+       
+       pygame - 2.1.2 
