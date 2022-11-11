@@ -1,0 +1,5 @@
+python 3.7>
+The required library is: 
+     
+     1) pygame = version 2.1.2
+
