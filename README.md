@@ -49,8 +49,12 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/Play-With-Py
  <td align="center">
 <a href="https://linktr.ee/ieee_igdtuw"><img src="https://media-exp1.licdn.com/dms/image/C510BAQFkiMnZdSk7UQ/company-logo_200_200/0/1550238156175?e=1675900800&v=beta&t=nqzDjqYuKHqNqagVusmoJeSTzhsYY6-QUy970s7rWlU" width=100px height=100px /><br /><sub><b>IEEE IGDTUW Week of Code</b></sub></a>
  </td>
+ <td align="center">
+<a href="https://www.codepeak.tech/"><img src="https://github.com/World-of-ML/Play-With-Python/blob/main/Assets/Screenshot%202022-12-02%20190456.png" width=100px height=100px /><br /><sub><b>Codepeak 2022</b></sub></a>
+ </td>
 </tr>
 </table>
+
 
 
 <h2>✔Project Admin</h2>
