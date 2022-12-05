@@ -8,7 +8,16 @@ Tic-tac-toe is played on a three-by-three grid by two players, who alternately p
 
 ### LIBRARIES NEEDED
 
-1. PyGame: Pygame is a cross-platform set of Python modules which is used to create video games.
+1. PyGame: Pygame is a cross-platform set of Python modules which is used to create video games. Make sure to install PyGame library before playing the game.
 
 **WHAT I HAD DONE**  
-First I decided the Game Design. I didnt like the terminal interface, so I decided to use PyGame, which is a library consisting of various useful tools for Video Game Development. I decided to use the Google Tic Tac Toe theme. 
+1) Import Libraries - pygame and initialize it. 
+2) Define the layout of the Tic Tac Toe Board, by drawing four lines with draw_lines() function, and providing necessary arguments such as Screen fill, etc. 
+3) Generate basic logic, using a 3x3 list, and updating it everytime player clicks on it. Draw figures using draw_figures() function.
+4) Check the winning condition, by iterating over all rows and columns, and two diagonals. Create a Winning line if winning condition is satisfied. 
+5) Print on screen, if any of the two players won, or is it a tie, if no empty spaces remain. 
+
+### DEMONSTRATION
+I have provided screenshots in the *Images* Folder.
+
+### Sarthak Joleya ### 
