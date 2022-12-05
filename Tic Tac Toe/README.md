@@ -11,3 +11,4 @@ Tic-tac-toe is played on a three-by-three grid by two players, who alternately p
 1. PyGame: Pygame is a cross-platform set of Python modules which is used to create video games.
 
 **WHAT I HAD DONE**  
+First I decided the Game Design. I didnt like the terminal interface, so I decided to use PyGame, which is a library consisting of various useful tools for Video Game Development. I decided to use the Google Tic Tac Toe theme. 
