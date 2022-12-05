@@ -18,6 +18,6 @@ Tic-tac-toe is played on a three-by-three grid by two players, who alternately p
 5) Print on screen, if any of the two players won, or is it a tie, if no empty spaces remain. 
 
 ### DEMONSTRATION
-I have provided screenshots in the *Images* Folder.
+(https://drive.google.com/drive/folders/10w8ITuu04ra6uKS-rockJmNyM5K4uvVk?usp=share_link)
 
 ### Sarthak Joleya ### 
