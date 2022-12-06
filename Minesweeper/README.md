@@ -25,7 +25,7 @@ To win the game, the player has to correctly “flag” the positions of all the
 
 **DEMONSTRATION**
 
-![Demonstration](/images/demonstration.png)
+![Demonstration](https://github.com/SpyzzVVarun/Play-With-Python/blob/main/Minesweeper/images/demonstration.png)
 
 **YOUR NAME**
 
