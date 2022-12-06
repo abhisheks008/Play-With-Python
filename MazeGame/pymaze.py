@@ -1,3 +1,7 @@
+#to run game type the following command in command line: 
+# python3 pymaze.py -interactive -block -color -width 20 -height 15
+# height and width can be adjusted to fit corresponding command line
+
 import os, sys, random, time, threading
 import maze
 
