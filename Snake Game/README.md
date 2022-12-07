@@ -25,9 +25,9 @@ You can play the game using up, left, right and down arrow keys to move the snak
 In this game, I implemented three classes known as apples, snake and game, that will start up and carry out an interactive Snake game. The game uses a resources folder for graphics of apple, snake and game window as well as background music and other game sounds. 
 
 **DEMONSTRATION**  
-![Screenshot 2022-12-07 at 3.26.27 PM](https://github.com/aayushsinha0706/Play-With-Python/blob/main/snake/screenshots/Screenshot%202022-12-07%20at%203.26.27%20PM.png)
+![Screenshot 2022-12-07 at 3.26.27 PMhttps://github.com/aayushsinha0706/Play-With-Python/blob/main/Snake%20Game/screenshots/Screenshot%202022-12-07%20at%203.26.27%20PM.png)
 
-![Screenshot 2022-12-07 at 3.28.03 PM](https://github.com/aayushsinha0706/Play-With-Python/blob/main/snake/screenshots/Screenshot%202022-12-07%20at%203.28.03%20PM.png)
+![Screenshot 2022-12-07 at 3.28.03 PM](https://github.com/aayushsinha0706/Play-With-Python/blob/main/Snake%20Game/screenshots/Screenshot%202022-12-07%20at%203.28.03%20PM.png)
 
 
 I wish you enjoy the classic snake game. :-D
