@@ -22,6 +22,7 @@ pygame.py
 #Install by running the command: pip install pygame
 
 DEMONSTRATION
+![image](https://user-images.githubusercontent.com/98964611/206288457-018960a2-c206-456c-958c-be008c2f9b47.png)
 
 
 
