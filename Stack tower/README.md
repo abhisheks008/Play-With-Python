@@ -19,5 +19,6 @@ Stack Tower is played on a 600 X 500 visual, who alternately place blocks over a
 
 
 ***DEmonstration
-https://drive.google.com/file/d/1Oy3xLDR0m5amumZIYTrqrulLL8GxArHO/view?usp=sharing
+ having both image or gif.
+https://drive.google.com/drive/folders/1hQ_d4RagELnw94RQVCg7rfnLkS-ZCqZc?usp=sharing
 ### shivank mishra ### 
