@@ -20,7 +20,7 @@ disjointSet.py
 
 DEMONSTRATION
 
-Demonstrations are stored in the res folder of the repository
+![image](https://user-images.githubusercontent.com/98964611/206206207-f8b6fcad-7ede-4433-8afa-7d1aa6e38cfb.png)
 
 
 Pundarikaksha
