@@ -5,7 +5,7 @@ This is a classic snake game created in python programming language using pygame
 
 
 **DESCRIPTION**  
-Snake is a video game genre where the player maneuvers a line that grows bigger after eating something, typically apples. Know about snake game [here](https://en.wikipedia.org/wiki/Snake_(video_game_genre)
+Snake is a video game genre where the player maneuvers a line that grows bigger after eating something, typically apples. Know about snake game [here](https://en.wikipedia.org/wiki/Snake_(video_game_genre))
 
 
 
