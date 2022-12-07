@@ -12,7 +12,7 @@ S- Move down
 A- Move left
 D- Move right
 
-Wrote a python code using python functions, classes(OOPs) and also took help from the internet to create a maze. Then created an interactive version of the same.
+Wrote a python code using python functions, classes(OOPs),kruskal method etc and also took help from the internet to create a maze. Then created an interactive version of the same.
 
 LIBRARIES NEEDED
 
