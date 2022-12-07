@@ -11,7 +11,7 @@ Snake is a video game genre where the player maneuvers a line that grows bigger 
 
 To play this game download snake.py and resources in the same directory. 
 
-You also need to have pyjama installed in your computer. Learn how to install pygame from [here](https://www.pygame.org/wiki/GettingStarted#Pygame%20Installation)
+You also need to have pygame installed in your computer. Learn how to install pygame from [here](https://www.pygame.org/wiki/GettingStarted#Pygame%20Installation)
 
 Open and run the file snake.py without making any modifications to it to ensure that everything is set up correctly. By "open and run" I mean do the following:
 * Go to your IDE. From the File menu, choose "Open".
