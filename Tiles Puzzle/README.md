@@ -1,4 +1,4 @@
-**Minesweeper**
+**Tiles Puzzle**
 
 **GOAL**
 
