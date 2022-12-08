@@ -18,10 +18,9 @@ Stack Tower is played on a 600 X 500 visual, who alternately place blocks over a
 5) Print on screen(Game over!). 
 
 
-***DEmonstration
-** having both image or gif **
+**Demonstration**
  
 https://drive.google.com/drive/folders/1hQ_d4RagELnw94RQVCg7rfnLkS-ZCqZc?usp=sharing
 
 
-### shivank mishra ### 
+### Shivank Mishra ### 
