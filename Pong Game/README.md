@@ -26,9 +26,9 @@ Open and run the file pong.py without making any modifications to it to ensure t
 In this game, I implemented two classes for paddle and ball and also functions like handle_collision and handle_paddle_movement that will start up and carry out an interactive pong game. 
 
 **DEMONSTRATION**  
-![Screenshot 2022-12-08 at 7.51.46 AM](https://github.com/aayushsinha0706/Play-With-Python/blob/main/Pong%20Game/screenshots/Screenshot%202022-12-08%20at%207.51.46%20AM.png)
+![Screenshot 2022-12-08 at 7.51.46 AM](https://github.com/aayushsinha0706/Play-With-Python/blob/main/Pong%20Game/Images/Screenshot%202022-12-08%20at%207.51.46%20AM.png)
 
-![Screenshot 2022-12-08 at 7.56.42 AM](https://github.com/aayushsinha0706/Play-With-Python/blob/main/Pong%20Game/screenshots/Screenshot%202022-12-08%20at%207.56.42%20AM.png)
+![Screenshot 2022-12-08 at 7.56.42 AM](https://github.com/aayushsinha0706/Play-With-Python/blob/main/Pong%20Game/Images/Screenshot%202022-12-08%20at%207.56.42%20AM.png)
 
 
 I wish you enjoy the classic pong game. :-D
