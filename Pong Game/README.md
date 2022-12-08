@@ -1,4 +1,4 @@
-**SNAKE GAME**  
+**PONG GAME**  
 
 **GOAL**  
 This is pong game created in python programming language using pygame.
