@@ -1,6 +1,0 @@
-Write down all the required libraries here.
-
-Example:
-
-library1 == v1.1.1
-library2 == v1.2.0
