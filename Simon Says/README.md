@@ -32,7 +32,6 @@ Created functions such as blinking, tapping etc and used freegames library to ra
 
 ### DEMONSTRATION
 
-![image](https://user-images.githubusercontent.com/98964611/206774225-f121421b-4be6-4620-8d23-be8a835f02a3.png)
 
 
 
