@@ -5,7 +5,7 @@ This is a classic space invader game created in python programming language usin
 
 
 **DESCRIPTION**  
-Space Invaders is a 1978 shoot 'em up arcade game developed by Tomohiro Nishikado. It was manufactured and sold by Taito in Japan, and licensed to the Midway division of Bally for overseas distribution. Space Invaders was the first fixed shooter and set the template for the shoot 'em up genre. The goal is to defeat wave after wave of descending aliens with a horizontally moving laser to earn as many points as possible. Read more about space invaders game from [here](https://en.wikipedia.org/)
+Space Invaders is a 1978 shoot 'em up arcade game developed by Tomohiro Nishikado. It was manufactured and sold by Taito in Japan, and licensed to the Midway division of Bally for overseas distribution. Space Invaders was the first fixed shooter and set the template for the shoot 'em up genre. The goal is to defeat wave after wave of descending aliens with a horizontally moving laser to earn as many points as possible. Read more about space invaders game from [here](https://en.wikipedia.org/wiki/Space_Invaders)
 
 
 To play this game download space invader.py and resources in the same directory. 
