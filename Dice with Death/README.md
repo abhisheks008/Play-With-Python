@@ -41,9 +41,15 @@ For developers, console print code is left that gives details of computer's turn
 
 ![GamePlay](./Images/playing_area.png)
 
+![Home](./Images/home_screen.png)
+
+![first](./Images/first_screen.png)
+
 ![Player Wins Case](./Images/player_wins_case.png)
 
 ![Computer Wins Case](./Images/computer_wins_case.png)
 
 ![Tie](./Images/tie_case.png)
+
+
 
