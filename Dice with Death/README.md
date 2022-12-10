@@ -37,6 +37,8 @@ I added a simple greeting message at the end that stays for 1 second on the scre
 
 ![Computer Wins Case](./Images/computer_wins_case.png)
 
-![Tie](./Images/tie_caase.png)
+![Tie](./Images/tie_case.png)
+
+![Ending Message](./Images/ending_msg.png)
 
 **DEVIKA SINGH**  
