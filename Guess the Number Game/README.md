@@ -19,7 +19,8 @@ To play this game download guess_numer.py and resources in the same directory.
 In this game, I implemented one class NumberGuessing that will be running the game.
 
 **DEMONSTRATION**  
-
+![Image1](https://github.com/jatin00000/Play-With-Python/blob/main/Guess%20the%20Number%20Game/Images/Image1.png)
+![Image2](https://github.com/jatin00000/Play-With-Python/blob/main/Guess%20the%20Number%20Game/Images/image2.png)
 
 
 I wish you enjoy guess the number game :-D
