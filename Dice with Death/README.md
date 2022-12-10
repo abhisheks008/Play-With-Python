@@ -30,6 +30,6 @@ For each round first it is decided who goes first then both player play and then
 I added clear screen after each round.
 
 I added a simple greeting message at the end that stays for 1 second on the screen.
-**DEMONSTRATION**  
-
+**SCREENSHOTS**  
+![User Wins Case](/Images/user_wins_case.png)
 **DEVIKA SINGH**  
