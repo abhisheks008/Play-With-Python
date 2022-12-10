@@ -16,27 +16,33 @@ The player keeps playing till all their die are "killed"
 Then the next player starts playing.
 
 The scores of both the players are compared and winner is decided by the larger score.
-It is a fun short game.  
+It is a fun short game. 
 
-**WHAT I HAD DID**  
+
+**WHAT I DID**  
 First I decided the Game Design:
-It had to be played on the terminal
+It had to be played on custom made GUI using Tkinter 
 
-First I decided a normal roll of 5 die to determine who plays first by the greater sum of values rolled.
+Computer Plays first by default with the same rules as player.
 
-I made a function for player playing a round and used it for both players (user and the computer)
+I made a function for player playing a roll of a dice.
 
-For each round first it is decided who goes first then both player play and then their scores are compared. Tie is a valid option.
+A button for roll is made by me to give players something to interact with.
+For each roll first it is decided if it is end of the turn with this roll or end of the round itself.
+Then dice is rolled and its value displayed on screen.
 
-I added clear screen after each round.
+I added a home screen with title and start button.
 
-I added a simple greeting message at the end that stays for 1 second on the screen.
+I added a simple winning message at the end.
+
+For developers, console print code is left that gives details of computer's turn on the console.
 **SCREENSHOTS**  
 
-![User Wins Case](./Images/user_wins_case.png)
+![GamePlay](./Images/playing_area.png)
+
+![Player Wins Case](./Images/player_wins_case.png)
 
 ![Computer Wins Case](./Images/computer_wins_case.png)
 
 ![Tie](./Images/tie_case.png)
 
-![Ending Message](./Images/ending_msg.png)

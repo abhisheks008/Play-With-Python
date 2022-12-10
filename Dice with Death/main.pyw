@@ -16,7 +16,7 @@ no_of_die_in_turn = no_of_die
 turn_rolls =[]
 no_of_rolls_in_turn = 0
 #functions
-def common_data(list1, list2):
+def common_ele(list1, list2):
     global no_of_die_in_turn
     result = False
   
@@ -40,20 +40,15 @@ def roll():
     w = g_canvas.winfo_width()/2
     s = "My Score :" + str(computer_score)
     g_canvas.create_text(w, 10 , text=s, fill="skyblue", font=('Helvetica 15 bold'))
-    print(no_of_die_in_turn)
     if no_of_die_in_turn == 0:
         g_canvas.delete("all")
         h = int(g_canvas.winfo_height()/2)
         w = int(g_canvas.winfo_width()/2)
-        print(computer_score,player_score,w,h)
         if computer_score > player_score: 
-            print("I win")
             g_canvas.create_text(w, 100,text="I win!", fill="skyblue", font=('Helvetica 15 bold'))
         elif player_score == computer_score: 
-            print("Tie win")
             g_canvas.create_text(w, 100,text="Tie! Up for another round?", fill="skyblue", font=('Helvetica 15 bold'))
         else: 
-            print("You win")
             g_canvas.create_text(w, 100,text="You win!", fill="skyblue", font=('Helvetica 15 bold'))
         s_button.configure(text="Restart?")
         roll_button.pack_forget()
@@ -64,7 +59,7 @@ def roll():
         g_canvas.delete("all")
         no_of_rolls_in_turn = 0#reset for next turn
         turn_score = 0
-        if common_data(turn_rolls,die_death_values) == False:
+        if common_ele(turn_rolls,die_death_values) == False:
             #to check if this turn had 2 or 5 rolled then don't add values
             for i in turn_rolls:
                 turn_score += i
