@@ -36,6 +36,7 @@ I added a home screen with title and start button.
 I added a simple winning message at the end.
 
 For developers, console print code is left that gives details of computer's turn on the console.
+
 **SCREENSHOTS**  
 
 ![GamePlay](./Images/playing_area.png)
