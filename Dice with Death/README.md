@@ -31,5 +31,5 @@ I added clear screen after each round.
 
 I added a simple greeting message at the end that stays for 1 second on the screen.
 **SCREENSHOTS**  
-![User Wins Case](/Images/user_wins_case.png)
+![User Wins Case](./Images/user_wins_case.png)
 **DEVIKA SINGH**  
