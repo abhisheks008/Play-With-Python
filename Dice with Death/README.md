@@ -40,5 +40,3 @@ I added a simple greeting message at the end that stays for 1 second on the scre
 ![Tie](./Images/tie_case.png)
 
 ![Ending Message](./Images/ending_msg.png)
-
-**BY DEVIKA SINGH**  
