@@ -25,10 +25,10 @@ After you make a move with your checker, your opponent gets a chance to go. As y
 
 **DEMONSTRATION**
 
-[](https://github.com/aastha-k/Play-With-Python/blob/connect4/Connect%204%20Game/images/image.jpg)
-[](https://github.com/aastha-k/Play-With-Python/blob/connect4/Connect%204%20Game/images/image2.jpg)
-[](https://github.com/aastha-k/Play-With-Python/blob/connect4/Connect%204%20Game/images/image3.jpg)
-[](https://github.com/aastha-k/Play-With-Python/blob/connect4/Connect%204%20Game/images/image4.jpg)
+![alt text](https://github.com/aastha-k/Play-With-Python/blob/connect4/Connect%204%20Game/images/image.jpg?raw=true)
+![alt text](https://github.com/aastha-k/Play-With-Python/blob/connect4/Connect%204%20Game/images/image2.jpg?raw=true)
+![alt text](https://github.com/aastha-k/Play-With-Python/blob/connect4/Connect%204%20Game/images/image3.jpg?raw=true)
+![alt text](https://github.com/aastha-k/Play-With-Python/blob/connect4/Connect%204%20Game/images/image4.jpg?raw=true)
 
 **YOUR NAME**
 
