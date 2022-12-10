@@ -1,4 +1,5 @@
 **DICE WITH DEATH**  
+**AUTHOR: DEVIKA SINGH**
 
 **WIN CONDITION**  
 The Player score should be greater than the computer Score after each round to win
@@ -31,5 +32,11 @@ I added clear screen after each round.
 
 I added a simple greeting message at the end that stays for 1 second on the screen.
 **SCREENSHOTS**  
+
 ![User Wins Case](./Images/user_wins_case.png)
+
+![Computer Wins Case](./Images/computer_wins_case.png)
+
+![Tie](./Images/tie_caase.png)
+
 **DEVIKA SINGH**  
