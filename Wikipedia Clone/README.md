@@ -33,6 +33,7 @@ Used Wikipedia API to fetch data from Wikipedia, created a website using Django 
 
 ### DEMONSTRATION
 
+![image](https://user-images.githubusercontent.com/98964611/206905004-6490e386-fd3b-4f69-87bb-06ca1e73ccd1.png)
 
 
 
