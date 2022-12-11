@@ -2,26 +2,33 @@
 
 ### GOAL
 
-This code brings in the knowledge of wikipedia to your local machine
+This project aims to create a Wikipedia Clone using Django Framework
 
 ### DESCRIPTION
 
+Create a virtual environment, cd into the directory then run the following commands
+1:pip install wikipedia
+2:pip install django
+3:py manage.py makemigrations
+4:py manage.py migrate
+6:py manage.py runserver
 
-1:Install the dependencies
-2:run py wiki.py in your cmd
-3:Input the topic you would need to search wikipedia for
-4:View the entire information in the comfort of the command prompt
+Then go to your localhost server and your Wikipedia Clone is ready!
+
+
 
 
 ### WHAT I HAD DONE
 
-Used Wikipedia API to fetch data from Wikipedia website and display it using python functions on command line
+Used Wikipedia API to fetch data from Wikipedia, created a website using Django in the backend and Django templates in the frontend.
 
 
 
 ### LIBRARIES NEEDED
 
-1:pip install wikipedia-api
+1:wikipedia
+2:django
+
 
 
 ### DEMONSTRATION
