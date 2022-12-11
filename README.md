@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Play With Python🎲🎮</h1>
-  <p> Have fun but in Python :) </p>
+  <p> Have fun but in Python! </p>
 </div>
 
 <div align="center">
