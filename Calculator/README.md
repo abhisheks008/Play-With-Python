@@ -1,4 +1,4 @@
-**TIC TAC TOE**  
+**CALCULATOR GUI**  
 
 **GOAL**  
 The Goal of this game is to create a Calculator App.
