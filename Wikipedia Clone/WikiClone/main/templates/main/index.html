@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wikipedia Clone</title>
+</head>
+<body style="font-family: sans-serif;background-color: black;">
+    
+    <div style="padding: 2%;">
+    <h1 style="text-align: center;color:white;">Wikipedia Clone</h1>
+    <form method="post" style="text-align: center;">
+        {% csrf_token %}
+        <input type="text" name="search" style="border-color: black;border-radius: 6px;color:black">
+        <button type="submit">Search</button>
+    </form>
+    </div>
+    {% if result %}
+
+        <p style="font-weight: 600;color:white;">{{result}}</p>
+    {% endif %}
+</body>
+</html>
