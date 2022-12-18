@@ -24,7 +24,7 @@ Pillow
 DEMONSTRATION
 
 
-![image](https://user-images.githubusercontent.com/98964611/206288457-018960a2-c206-456c-958c-be008c2f9b47.png)
+![image](https://user-images.githubusercontent.com/98964611/208297652-9dc519d8-4dbb-4b22-8401-14abde833b51.png)
 
 
 
