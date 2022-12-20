@@ -22,5 +22,8 @@ PDF as input :
 ![PDF file](https://github.com/vamsikrishnarh7/Play-With-Python/blob/main/PDF%20to%20Text%20Converter/Images/2022-12-20.png)
 
 Output : 
-![Text Output]()
+
+![Text Output](https://github.com/vamsikrishnarh7/Play-With-Python/blob/main/PDF%20to%20Text%20Converter/Images/pdf%20to%20text3.png)
+
+
 **Durga Vamsi Krishna**[https://github.com/vamsikrishnarh7/]
