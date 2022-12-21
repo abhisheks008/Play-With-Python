@@ -22,8 +22,8 @@ In this game, I implemented the game by using the following concepts:
 + Functions
 
 **DEMONSTRATION**  
-![image](https://user-images.githubusercontent.com/62781914/208819025-77a45886-b00f-4717-8b28-0832518460bb.png)
-![image](https://user-images.githubusercontent.com/62781914/208819219-3cf11b98-31e9-478a-accb-2f83b89421f4.png)
+![image](./Images/img1.png)
+![image](./Images/img2.png)
 
 
 I wish you enjoy guess this game :-D
