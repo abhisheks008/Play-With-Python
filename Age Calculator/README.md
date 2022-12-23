@@ -25,8 +25,14 @@ I have mage this app using thinkter library. It can calculate your age as per th
 ### DEMONSTRATION
 
 1. Image1 - First image shows the app preview.
+![Image1](https://github.com/Abhay04ch/Play-With-Python/blob/main/Age%20Calculator/Images/Image1.jpg)
+
 2. Image2 - The user enter its date of birth and the age of the date to be calculated.
+![Image2](https://github.com/Abhay04ch/Play-With-Python/blob/main/Age%20Calculator/Images/Image2.jpg)
+
 3. Image3 - It displays the calculated age.
+![Image3](https://github.com/Abhay04ch/Play-With-Python/blob/main/Age%20Calculator/Images/Image3.jpg)
+
 
 ### YOUR NAME
 
