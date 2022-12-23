@@ -21,4 +21,4 @@ Below is what the GUI looks like:
 
 
 
-**Durga Vamsi Krishna**[https://github.com/vamsikrishnarh7/]
+[Durga Vamsi Krishna](https://github.com/vamsikrishnarh7/)
