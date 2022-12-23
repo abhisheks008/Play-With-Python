@@ -3,7 +3,7 @@
 
 **Approach**
 
-This app build using `tkinter 3.9.14` and `PyPDF 2.12.1`.
+This app build using `tkinter 3.9.14`.
 - Importing the module – tkinter
 - Create the main window (container)
 - Add widgets to main window
