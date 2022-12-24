@@ -6,7 +6,7 @@
 In this app, the user will be able to do following:
 
 - open the PDF files ( can merge numerous files)
-- save the merged file in custom location and custom name
+- save the merged file in custom location with custom name
 
 
 **Approach**
