@@ -6,15 +6,16 @@ The aim of this program is to download the (.pdf)extension file from the given u
 
 **DESCRIPTION**
 
-In this, we will input the URL of the (.pdf) extension and the pdf file be downloaded at the specified path. A basic approach is used for creating this program. Using the (requests) library we are requesting access to the file from the given URL.
+In this, we will input the URL of the (.pdf) extension and the pdf file be downloaded at the specified path. A basic approach is used for creating this program. Using the (requests) library we are requesting access to the file from the given URL. And using Tkinter we have created the GUI.
 
 **LIBRARIES NEEDED**
 
 - requests
+- Tkinter
 
 **DEMONSTRATION**
 
-<img width="1338" alt="Screenshot 2022-12-21 at 8 15 29 PM" src="https://user-images.githubusercontent.com/83280091/208933818-33dab425-619f-4161-b1e2-44363370be44.png">
+<img width="1014" alt="Output" src="https://user-images.githubusercontent.com/83280091/209460752-f181e965-e74f-4cb7-ab0a-a6f8d561bdd0.png">
 
 **YOUR NAME**
 
