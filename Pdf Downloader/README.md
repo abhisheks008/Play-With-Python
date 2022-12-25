@@ -13,6 +13,10 @@ In this, we will input the URL of the (.pdf) extension and the pdf file be downl
 - requests
 - Tkinter
 
+**HOW TO RUN**
+- from the terminal line run cmd <pre><code>python3 pdf_downloader.py</code></pre>
+- NOTE:- If the image is not visible in GUI, then add the (logo.png) image path from the image folder at line no. 25
+
 **DEMONSTRATION**
 
 <img width="1014" alt="Output" src="https://user-images.githubusercontent.com/83280091/209460752-f181e965-e74f-4cb7-ab0a-a6f8d561bdd0.png">
