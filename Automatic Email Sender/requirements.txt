@@ -1,0 +1,4 @@
+1. Turn On 2-Step Verification
+2. save 16 alfabet password
+3. Send Email with Python code 
+4. Log in and send the email
