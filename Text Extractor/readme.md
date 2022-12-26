@@ -4,7 +4,7 @@
 
 This app build using `tkinter 3.9.14` and `pytesseract`.
 - Import the pytesseract and tkinter modules.
-- Open the imagw files.
+- Open the image files.
 - use pytesseract.image_to_string() to extract the text from the image.
 - display the text.
 
