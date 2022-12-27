@@ -1,0 +1,4 @@
+The required library is: 
+       
+       tkinter - 3.9.14
+       pytesseract
