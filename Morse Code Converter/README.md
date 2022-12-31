@@ -25,9 +25,9 @@ Morse code algorithm is created using class and function in morse.py and main.py
 
 **DEMONSTRATION**  
 
-![001](https://github.com/aayushsinha0706/Play-With-Python/blob/main/Morse%20Code%20Converter/images/001.png)
+![Screenshot 2022-12-31 at 12.25.44 PM](https://github.com/aayushsinha0706/Play-With-Python/blob/main/Morse%20Code%20Converter/images/Screenshot%202022-12-31%20at%2012.25.44%20PM.png)
 
-![002](https://github.com/aayushsinha0706/Play-With-Python/blob/main/Morse%20Code%20Converter/images/002.png)
+![Screenshot 2022-12-31 at 12.26.35 PM](https://github.com/aayushsinha0706/Play-With-Python/blob/main/Morse%20Code%20Converter/images/Screenshot%202022-12-31%20at%2012.26.35%20PM.png)
 
 I wish you enjoy the morse code convertor. :-D
 
