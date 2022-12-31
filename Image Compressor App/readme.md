@@ -8,6 +8,11 @@
 
 **Demonstration**
 
+- Create a folder named Image Compressor 
+- save the python source code file in that folder
+- run the program and select the image
+- compressed image will be saved in the same folder that you created
+
 
 
 https://user-images.githubusercontent.com/89008784/210128233-dfead058-a12b-41d8-87cc-515f239c3aa6.mp4
