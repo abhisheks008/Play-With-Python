@@ -30,6 +30,6 @@ In this code, I implemented the code by using the following concepts:
 ![image](./lion_watermarked.jpg)
 
 
-I wish you enjoy guess this code :-D
+I wish you enjoy this code :-D
 
 **SRIHARI S**
