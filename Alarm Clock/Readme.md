@@ -19,6 +19,7 @@ Set time in the app and click on set alarm. You can exit the app using exit butt
 - from the terminal line run cmd <pre><code>python3 alarm.py</code></pre>
 
 **DEMONSTRATION**
+
 <img width="268" alt="img-1" src="https://user-images.githubusercontent.com/83280091/210274252-57ded7e6-f49c-4e1e-bf6f-a701d988d003.png">
 
 **YOUR NAME**
