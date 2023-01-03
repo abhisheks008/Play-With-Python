@@ -24,6 +24,6 @@ In this code, I implemented the code by using the following concepts:
 ![image](./images/gui.png)
 ![image](./images/gui2.png)
 
-I wish you enjoy guess this code :-D
+I wish you enjoy this code :-D
 
 **SRIHARI S**
