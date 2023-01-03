@@ -30,7 +30,7 @@ It uses PyPDF2 to extract text from the pdf and then uses pyttsx3 to convert it 
 + Threading
 
 # DEMONSTRATION 
-![image](./images/gui.png)
+![image](./Images/gui.png)
 
 
 
