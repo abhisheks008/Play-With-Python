@@ -17,7 +17,7 @@ Now create the GUI and make a function `getWeather()` to get the details of weat
 
 - import `request` module
 - store the openweathermap API key in `weatherApiKey` variable and take city name user input into `city` variable
-- use `request.get().json` by passing the query `"http://api.openweathermap.org/data/2.5/weather?appid=" + weatherApiKey + "&q=" + city` to fetch the wether details in json format
+- use `request.get().json` by passing the query `"http://api.openweathermap.org/data/2.5/weather?appid=" + weatherApiKey + "&q=" + city` to fetch the weather details in json format
 
 While running this app, we will get some HTTPerrors like :
 
