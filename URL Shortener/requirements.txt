@@ -1,0 +1,6 @@
+The required libraries are: 
+
+turtle, pyshorteners
+
+If the modules are not installed, you can install them using the following commands:
+pip install turtle, pip install pyshorteners
