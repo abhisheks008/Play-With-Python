@@ -1,0 +1,5 @@
+The required libraries are:
+	Tkinter
+	pyttsx3
+	PyPDF2
+	threading
