@@ -25,19 +25,28 @@ I have mage this app using thinkter library. It can calculate your age as per th
 ### DEMONSTRATION
 
 1. Image1 - First image shows the app preview.
-![Image1](https://github.com/Abhay04ch/Play-With-Python/blob/main/Age%20Calculator/Images/Image1.jpg)
+![Image1](./Images/Image1.jpg)
 
 2. Image2 - The user enter its date of birth and the age of the date to be calculated.
-![Image2](https://github.com/Abhay04ch/Play-With-Python/blob/main/Age%20Calculator/Images/Image2.jpg)
+![Image2](./Images/Image2.jpg)
 
 3. Image3 - It displays the calculated age.
-![Image3](https://github.com/Abhay04ch/Play-With-Python/blob/main/Age%20Calculator/Images/Image3.jpg)
+![Image3](./Images/Image3.jpg)
+
+4. Image4 - It shows the error message if the user enters a wrong month.
+![Image4](./Images/image4.png)
+
+5. Image5 - It shows the error message if the user enters a wrong date.
+![Image5](./Images/image5.png)
+
+6. Image6 - It shows the error message if the user enters a wrong year.
+![Image6](./Images/image6.png)
+
+7. Image7 - It shows the error message if the user gives a blank input.
+![Image7](./Images/image7.png)
 
 
 ### YOUR NAME
 
 ### Abhay Chauhan
-
-
-
-
+### Srihari S

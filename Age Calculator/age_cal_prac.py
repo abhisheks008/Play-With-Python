@@ -16,17 +16,103 @@ def clear():
 
 # It checks all the input entries and returns Input Error if any entry is absent.
 def checkEntries():
-    if (dayinput.get() == "" or monthinput.get() == ""
-        or yearinput.get() == "" or seconddayinput.get() == ""
-        or secondmonthinput.get() == "" or secondyearinput.get() == ""):
-
-            messagebox.showerror("Input Error")
-
+    if (dayinput.get() == "" or monthinput.get() == "" or yearinput.get() == "" or seconddayinput.get() == "" or secondmonthinput.get() == "" or secondyearinput.get() == ""):
+            messagebox.showerror("Input Error", "All fields are required")
             clear()
             return -1
 
+    if(int(dayinput.get()) > 31 or int(dayinput.get()) < 1):
+        messagebox.showerror("Input Error", "Invalid Date")
+        clear()
+        return -1
+    elif(int(monthinput.get()) > 12 or int(monthinput.get()) < 1):
+        messagebox.showerror("Input Error", "Invalid Month")
+        clear()
+        return -1
+    elif(int(yearinput.get()) < 1900):
+        messagebox.showerror("Input Error", "Invalid Year, Enter a year greater than 1900")
+        clear()
+        return -1
+    elif(int(seconddayinput.get()) > 31 or int(seconddayinput.get()) < 1):
+        messagebox.showerror("Input Error", "Invalid Date")
+        clear()
+        return -1
+    elif(int(secondmonthinput.get()) > 12 or int(secondmonthinput.get()) < 1):
+        messagebox.showerror("Input Error", "Invalid Month")
+        clear()
+        return -1
+    elif(int(secondyearinput.get()) < 1900):
+        messagebox.showerror("Input Error", "Invalid Year, Enter a year greater than 1900")
+        clear()
+        return -1
+    elif(int(monthinput.get()) == 2):
+        if(int(dayinput.get()) > 29):
+            messagebox.showerror("Input Error", "Invalid Date")
+            clear()
+            return -1
+    elif(int(secondmonthinput.get()) == 2):
+        if(int(seconddayinput.get()) > 29):
+            messagebox.showerror("Input Error", "Invalid Date")
+            clear()
+            return -1
+    elif(int(monthinput.get()) == 4 or int(monthinput.get()) == 6 or int(monthinput.get()) == 9 or int(monthinput.get()) == 11):
+        if(int(dayinput.get()) > 30):
+            messagebox.showerror("Input Error", "Invalid Date")
+            clear()
+            return -1
+    elif(int(secondmonthinput.get()) == 4 or int(secondmonthinput.get()) == 6 or int(secondmonthinput.get()) == 9 or int(secondmonthinput.get()) == 11):
+        if(int(seconddayinput.get()) > 30):
+            messagebox.showerror("Input Error", "Invalid Date")
+            clear()
+            return -1
+    elif(int(yearinput.get())%4 == 0):
+        if(int(monthinput.get()) == 2):
+            if(int(dayinput.get()) > 29):
+                messagebox.showerror("Input Error", "Invalid Date")
+                clear()
+                return -1
+    elif(int(secondyearinput.get())%4 == 0):
+        if(int(secondmonthinput.get()) == 2):
+            if(int(seconddayinput.get()) > 29):
+                messagebox.showerror("Input Error", "Invalid Date")
+                clear()
+                return -1
+    elif(int(yearinput.get())%100 == 0):
+        if(int(monthinput.get()) == 2):
+            if(int(dayinput.get()) > 28):
+                messagebox.showerror("Input Error", "Invalid Date")
+                clear()
+                return -1
+    elif(int(secondyearinput.get())%100 == 0):
+        if(int(secondmonthinput.get()) == 2):
+            if(int(seconddayinput.get()) > 28):
+                messagebox.showerror("Input Error", "Invalid Date")
+                clear()
+                return -1
+    elif(int(yearinput.get())%400 == 0):
+        if(int(monthinput.get()) == 2):
+            if(int(dayinput.get()) > 29):
+                messagebox.showerror("Input Error", "Invalid Date")
+                clear()
+                return -1
+    elif(int(secondyearinput.get())%400 == 0):
+        if(int(secondmonthinput.get()) == 2):
+            if(int(seconddayinput.get()) > 29):
+                messagebox.showerror("Input Error", "Invalid Date")
+                clear()
+                return -1
+
+# This function clears the previous result.
+def clearPrevious():
+    finalDayoutput.delete(0, END)
+    finalMonthoutput.delete(0, END)
+    finalYearoutput.delete(0, END)
+
+
 # This function performs all the calculation and returns the calculated age.
 def calculateAge():
+
+    clearPrevious()
 
     value = checkEntries()
     if value == -1:
