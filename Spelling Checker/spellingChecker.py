@@ -28,11 +28,11 @@ def checkSpelling():
     a = text.get() #Getting the word user entered
     b = TextBlob(a) #Getting the object for the word
     if(a==""):
-        Label(wn, text='Please enter a word',bg='SlateGray1', fg='red', font=('calibre',13,'normal')).place(x=20, y=200)
+        Label(wn, text='Please enter a word or sentence',bg='SlateGray1', fg='red', font=('calibre',13,'normal')).place(x=20, y=200)
     elif(a==str(b.correct())):
-        Label(wn, text='The word is already correct',bg='SlateGray1', fg='green', font=('calibre',13,'normal')).place(x=20, y=200)
+        Label(wn, text='The given input is already correct',bg='SlateGray1', fg='green', font=('calibre',13,'normal')).place(x=20, y=200)
     else:
-        correctedText.set("The corrected word is: "+str(b.correct())) #Showing the corrected word
+        correctedText.set("The corrected word or sentence is: "+str(b.correct())) #Showing the corrected word
 
 #Button to do the spell check
 Button(wn, text="Click Me", bg='SlateGray4',font=('calibre', 13),
