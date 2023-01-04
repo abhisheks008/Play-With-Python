@@ -34,4 +34,9 @@ It uses PyPDF2 to extract text from the pdf and then uses pyttsx3 to convert it 
 
 
 
+https://user-images.githubusercontent.com/82754813/210595903-f70b9dae-13db-4cae-9685-9c8ffbac9dba.mp4
+
+
+
+
 Mathew
