@@ -17,7 +17,10 @@ In this code, I implemented the code by using the following concepts:
 + spellchecker module
 
 **DEMONSTRATION**  
+![image](./images/app_start.png)
 ![image](./images/app.png)
+![image](./images/app_correct.png)
+![image](./images/app_no_input.png)
 
 I wish you enjoy this code :-D
 
