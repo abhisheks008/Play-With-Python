@@ -26,7 +26,7 @@ Commands:
 
 **DEMONSTRATION**
 
-<img width="268" alt="img-1" src="https://user-images.githubusercontent.com/83280091/210274252-57ded7e6-f49c-4e1e-bf6f-a701d988d003.png">
+<img width="722" alt="img" src="https://user-images.githubusercontent.com/83280091/210749512-953e8a97-a8d8-48a5-8933-3203215cc3dc.png">
 
 **YOUR NAME**
 
