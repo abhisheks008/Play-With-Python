@@ -1,0 +1,2 @@
+install pyautogui, numpy and cv2
+run in local machine
