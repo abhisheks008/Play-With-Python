@@ -28,7 +28,7 @@ In this project with tkinter library and pygame, I created a class named  MusicP
 
 **DEMONSTRATION**  
 
-![Screenshot 2023-01-06 at 5.56.02 PM](https://github.com/aayushsinha0706/Play-With-Python/blob/main/Morse%20Code%20Converter/images/001.png)
+![Screenshot 2023-01-06 at 5.56.02 PM](https://github.com/aayushsinha0706/Play-With-Python/blob/main/Music%20Player%20App/image/Screenshot%202023-01-06%20at%205.56.02%20PM.png)
 
 
 I wish you enjoy the Music Player App
