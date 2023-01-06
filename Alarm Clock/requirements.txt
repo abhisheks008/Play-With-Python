@@ -1,0 +1,6 @@
+## LIBRARIES NEEDED
+
+import datetime
+import time
+from tkinter import * 
+from playsound import playsound

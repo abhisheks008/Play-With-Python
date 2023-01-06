@@ -1,0 +1,3 @@
+To run the code successfully, you need to have the following libraries installed:
+tkinter (for GUI) - To install tkinter, run the following command in the terminal: pip install tkinter
+textblob (for sentiment analysis) - To install textblob, run the following command in the terminal: pip install textblob
