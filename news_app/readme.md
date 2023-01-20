@@ -21,7 +21,7 @@ STEPS:
 
 2.Created a Tkinter window
 
-3.Defined a function get_news() that get the news from the web using requests and beautifulsoup
+3.Defined a function get_news() that gets the news from the web using requests and beautifulsoup
 
 4.Cleaned the unwanted data and then presented the news
 
