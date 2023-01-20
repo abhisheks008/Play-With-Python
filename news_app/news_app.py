@@ -18,6 +18,7 @@ def get_news():
         try:
                 news=""
                 response=requests.get('https://www.bbc.com/news')
+                #using beautiful soup to find ang get the required items 
                 soup = BeautifulSoup(response.text,'html.parser')
                 s = soup.find('body')
                 content=s.find_all('h3')
