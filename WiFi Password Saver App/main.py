@@ -31,8 +31,8 @@ class WifiPasswordSaver:
         self.root.mainloop()
 
     # pop up for passwords
-    def show_password(self, password):
-        Popup(title='Password', message=f'Your password : {password}', master=self.root)
+    def show_password(self, password,wifiname):
+        Popup(title='Password', message=f'{wifiname} : {password}', master=self.root)
         return
 
     # main function for wi-fi password
@@ -119,7 +119,7 @@ class WifiPasswordSaver:
                         password = tk.Label(self.text_box, font='Aerial 13 bold', text='***', cursor='hand2',
                                             background='white')
                         password.grid(column=password_column, row=number + 5, pady=10)
-                        password.bind('<Button-1>', lambda e, passw=results[0]: self.show_password(passw))
+                        password.bind('<Button-1>', lambda e,wifiname=i, passw=results[0]: self.show_password(passw,wifiname))
 
                         is_nearby = tk.Label(self.text_box, background='white', font='Aerial 11',
                                              text="Y" if nearbyFlag else "N", fg="blue" if nearbyFlag else "red", )
@@ -153,7 +153,7 @@ class WifiPasswordSaver:
         try:
             self.filename = filedialog.asksaveasfilename(
                 defaultextension='.txt',
-                filetypes=[('Text', '*.txt'), ('All files', '*'), ]
+                filetypes=[('Text', '*.txt')]
             )
             f = open(self.filename, 'w')
             self.structure_data_in_file(f)
