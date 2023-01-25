@@ -16,8 +16,8 @@ In this code, I implemented the code by using the following concepts:
 
 **DEMONSTRATION**  
 
-![image](./images/wifi_password_saver1.png)
-![image](./images/wifi_password_saver2.png)
+![image](./images/wifi_password_saver1.PNG)
+![image](./images/wifi_password_saver2.PNG)
 
 ### Keyvan Majidi ###
      [https://github.com/keyvanmj]
