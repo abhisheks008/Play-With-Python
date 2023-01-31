@@ -1,0 +1,4 @@
+1.Numpy
+2.OpenCv-python
+3.PIL(Python Image Library)
+4.tkinter
