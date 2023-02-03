@@ -19,7 +19,7 @@
 
 <img src="https://github.com/abhisheks008/Play-With-Python/blob/main/Assets/Navy%20%26%20Yellow%20Modern%20Business%20Facebook%20Cover.png">
 
-## 🔴 Welcome contributors
+## 🔴 Welcome contributors!
 Gaming is really a workout for your mind disguised as fun. Studies have shown that playing video games regularly may increase gray matter in the brain and boost brain connectivity. Gray matter is associated with muscle control, memories, perception, and spatial navigation. Video games can also teach important skills or address serious issues, organizations such as Games For Change promote the use of games for education and social action, and often involve young people in the creation of games they can use to express themselves on important issues and current events. Some medical professionals, such as Doctor Kourosh Dini, also feel that “age appropriate multi-player video games can allow children to learn how other people think - a key aspect of empathy. Games can also help a child become more comfortable with new and ever progressing technology.
 </br>
 
