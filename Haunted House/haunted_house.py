@@ -1,49 +1,10 @@
-# Haunted House with python
+from tkinter import *
+import sys
+from tkinter.ttk import *
 import time
 
-def welcome():
-  print("              /\\")
-  print("             /  \\")
-  print("      /\    /    \\ ")
-  print("     /  \  /      \ ")
-  print("    /    \/        \_/\\")
-  print("   /     Welcome to    \\")
-  print("  /                     \\")
-  print("  |  the Haunted House! |")
-  print("  |     ____     ___    |")
-  print("  |    |    |   |___|   |")
-  print("__|____|____|___________|__")
-  print("")
-  time.sleep(1)
-  
-welcome()
+health=100
 
-def showInstructions():
-    print('''  
-Commands:
-  use [item] eg: use key 
-  
-  shoot[enemy] eg: shoot zombie
-   
-  go [direction] eg: go north
-  
-  get [object] eg: get bandage
-''')
-    
-health= 100
-
-def showStatus():
-
-  print('You are in the ' + currentRoom)
-  print (rooms[currentRoom]['desc'])
-  print("Inventory : " + str(inventory))
-  print("Your health is",health)
-  if "item" in rooms[currentRoom]:
-    print('You see a ' + rooms[currentRoom]['item'])
-  print("---------------------------")
-
-
-    
 inventory = []
 
 monster=[]
@@ -80,80 +41,168 @@ rooms = {
 
 currentRoom = 'Hall'
 
-showInstructions()
 
-while True:
+def welcome():
+    label = Label(window, text="Welcome to the Haunted House!")
+    label.pack()
 
-  showStatus()                  
+def show_instructions():
+     instructions=Message(new_window,text='''  
+Commands:
+  use [item] eg: use key 
+  
+  shoot[enemy] eg: shoot zombie
+   
+  go [direction] eg: go north
+  
+  get [object] eg: get bandage
+''')
+     instructions.pack()
 
-  move = ''
-  while move == '':  
-    move = input('>')           
+def showStatus():
+  health_bar['value']=health
+  window.update_idletasks()
+  health_bar.pack()
+  location_label=Label(window,text='You are in the ' + currentRoom)
+  location_label.pack()
+  desc_label=Label(window,text=rooms[currentRoom]['desc'])
+  desc_label.pack()
+  inventory_label=Label(window,text=f"Inventory : {str(inventory)}")
+  inventory_label.pack()
+  if "item" in rooms[currentRoom]:
+    message_label=Label(window,text=f"You see a {rooms[currentRoom]['item']}")
+    message_label.pack()
+
+def game(move):
+    global currentRoom
+    global inventory
+    global health
     
-  move = move.lower().split()   
-
-  if move[0]=="shoot":  
+    if move[0]=="shoot":  
       if "monster"in rooms[currentRoom] and move[1] in rooms[currentRoom]['monster'] and "shotgun" in inventory :
           del rooms[currentRoom]['monster']
-          print( "you killed the", move[1])
+          message_label=Label(window,text=f"you killed the {move[1]}")
+          message_label.pack()
           rooms[currentRoom].update({"monster":"dead"},)
         
       else:
-          print("you cannot attack " )
-          
+          message_label=Label(window,text="you cannot attack " )
+          message_label.pack()
 
-      
-  if move[0]=="use":
+    if move[0]=="exit":
+       time.sleep(1)
+       sys.exit()   
+
+    if move[0]=="use":
       
       
       if "bandage" in inventory and move[1]== "bandage":
           heal=40
           health=min(100,health+heal)
           inventory.remove("bandage")
-          print("you recovered 40 health (max 100)")
+          message_label=Label(window,text="you recovered 40 health (max 100)")
+          message_label.pack()
 
       elif "key" in inventory and move[1]== "key" and "golden_crown" in inventory and currentRoom=="Garden":     
-         print("you escape with the loot, you retire in style, you win!!  ")
-         break    
+         message_label=Label(window,text="you escape with the loot, you retire in style, you win!!  ")
+         message_label.pack()
+         #here the program doesn't display the message it exits after 1 second
+         time.sleep(1)
+         sys.exit()   
               
           
       elif "key" in inventory and move[1]== "key" in inventory and currentRoom=="Garden":
-         print("you escape the house but die a pauper, you lose ")
-         break
+         message_label=Label(window,text="you escape the house but die a pauper, you lose ")
+         message_label.pack()
+         #here the program doesn't display the message it exits after 1 second
+         time.sleep(1)
+         sys.exit()
 
       
 
       else:
-          print("can't use that")
+          message_label=Label(window,text="can't use that")
+          message_label.pack()
 
       
     
-  if move[0] == 'go':
+    if move[0] == 'go':
       if move[1] in rooms[currentRoom]:
           currentRoom = rooms[currentRoom][move[1]]
       else:
-          print('You can\'t go that way!')
+          message_label=Label(window,text=r"You can\'t go that way!")
+          message_label.pack()
 
-  if move[0] == 'get' :
+    if move[0] == 'get' :
           
       if 'item' in rooms[currentRoom] and move[1] in rooms[currentRoom]['item']:
           inventory += [move[1]]
-          print(move[1] + ' got!')
+          message_label=Label(window,text=f"{move[1]} got!")
+          message_label.pack()
           del rooms[currentRoom]['item']
      
       else:
-          print("Can\'t get that")
+          message_label=Label(window,text=r"Can\'t get that")
+          message_label.pack()
         
-  if 'zombie' in rooms[currentRoom]['monster']:
-      print("A zombie attack you !!!")
+    if 'zombie' in rooms[currentRoom]['monster']:
+      message_label=Label(window,text="A zombie attack you !!!")
+      message_label.pack()
       health=health-30
 
-  if 'ghoul' in rooms[currentRoom]['monster']:
-      print('A ghoul attack you !!!')
+    if 'ghoul' in rooms[currentRoom]['monster']:
+      message_label=Label(window,text='A ghoul attack you !!!')
+      message_label.pack()
       health=health-20
-  
 
-  if health <= 0:
-      print("you are dead")
-      break
-        
+    if health<0:
+      message_label=Label(window,text="you are dead")
+      message_label.pack()
+  
+def get_input():
+   showStatus()
+   input=Entry(window,width=25)
+   input.pack()
+   submit_Button=Button(window,text="Submit", command=lambda:submit(input))
+   submit_Button.pack()
+
+def submit(input):
+   move = input.get().lower().split()
+   if input.get():
+      game(move)
+   else:
+      Error_Lab=Label(window,text="Please Enter something")
+      Error_Lab.pack()
+   get_input()
+
+window=Tk()
+window.title("Haunted House Game")
+window.geometry('500x500')
+
+new_window=Toplevel(window)
+new_window.title("Commands")
+
+#tried to create a scrollbar but it did not work
+
+#frame-Frame(window)
+# frame.pack(,fill=BOTH)
+
+# canvas = Canvas(frame,yscrollcommand=scrollbar.set)
+# canvas.pack(fill=BOTH, expand=True)
+
+# scrollbar.config(command=canvas.yview)
+
+
+health_bar= Progressbar(window, orient = HORIZONTAL, length = 100, mode = 'determinate')
+                        
+welcome()
+
+show_instructions()
+
+health_meter=Label(window,text="Your Health")
+
+health_meter.pack()
+
+get_input()
+
+window.mainloop()
