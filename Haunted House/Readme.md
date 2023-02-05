@@ -1,4 +1,4 @@
-**Haunted House**
+**Haunted House[GUI]**
 
 **GOAL**
 
@@ -6,7 +6,7 @@ The aim of this program is to is to escape the house with the loot. Using NESTED
 
 **DESCRIPTION**
 
-Use the ccommand to navigate in the house and explore the adventure.
+Use the command to navigate in the house and explore the adventure.
 
 Commands:
   - use [item] eg: use key 
@@ -20,14 +20,20 @@ Commands:
 **LIBRARIES NEEDED**
 
 - time
+- tkinter
+- tkinter.ttk
+- sys
 
 **HOW TO RUN**
 - from the terminal line run cmd <pre><code>python3 haunted_house.py</code></pre>
 
 **DEMONSTRATION**
 
-<img width="722" alt="img" src="https://user-images.githubusercontent.com/83280091/210749512-953e8a97-a8d8-48a5-8933-3203215cc3dc.png">
+![demo_image](https://user-images.githubusercontent.com/114090255/216824210-1f6f8889-47bd-43b5-9847-0d6ed9ccf385.png)
 
 **YOUR NAME**
 
+
 Govind Kushwaha
+
+B C Samrudh
