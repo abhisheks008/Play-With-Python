@@ -1,6 +1,9 @@
 ## LIBRARIES NEEDED
 
 import time
+import tkinter
+import tkinter.ttk
+import sys
 
 Commands:
   - use [item] eg: use key 
