@@ -1,0 +1,34 @@
+#:kivy 1.0
+<Screen1>:
+    name:"screen1"
+    MDFloatLayout:
+        md_bg_color:1,1,1,1
+        Image:
+            source:"assets/img/covid.png"
+            size_hint:.50,.50
+            pos_hint:{"center_x": .5, "center_y": .72}
+        MDLabel:
+            text:"C O V I D - T R A C K E R"
+            font_size: "23sp"
+            pos_hint: {"center_y": .38}
+            halign:"center"
+            color:rgba(34, 34, 34, 255)
+        MDLabel:
+            text:"Get the latest details of COVID all across the world within the tip of your fingers"
+            font_size: "16sp"
+            size_hint_x: .85
+            pos_hint: {"center_x":.5, "center_y": .3}
+            halign:"center"
+            color:rgba(127, 127, 127, 255)
+        Button:
+            text: "GET   STARTED"
+            size_hint: .66, .065
+            pos_hint:{"center_x": .5,"center_y": .09}
+            background_color:0, 0, 0, 0
+            canvas.before:
+                Color:
+                    rgb: rgba(205, 0, 26, 255)
+                RoundedRectangle:
+                    size: self.size
+                    pos:self.pos
+                    radius:[5]
