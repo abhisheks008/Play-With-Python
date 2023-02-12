@@ -18,10 +18,7 @@ class Covid_Tracker(MDApp):
         self.screen = Builder.load_file("./components/main.kv")
         return self.screen
 
+    def getData(self):
+        print(self.screen.get_screen('screen2').ids.cityName.text)
+
 Covid_Tracker().run()
-
-
-                
-        
-
-        

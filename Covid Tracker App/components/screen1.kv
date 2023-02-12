@@ -5,7 +5,7 @@
         md_bg_color:1,1,1,1
         Image:
             source:"assets/img/covid.png"
-            size_hint:.50,.50
+            size_hint:.45,.45
             pos_hint:{"center_x": .5, "center_y": .72}
         MDLabel:
             text:"C O V I D - T R A C K E R"
@@ -21,10 +21,13 @@
             halign:"center"
             color:rgba(127, 127, 127, 255)
         Button:
-            text: "GET   STARTED"
+            text: "G E T  S T A R T E D"
             size_hint: .66, .065
             pos_hint:{"center_x": .5,"center_y": .09}
             background_color:0, 0, 0, 0
+            on_release:
+                app.root.transition.direction="left"
+                app.root.current="screen2"
             canvas.before:
                 Color:
                     rgb: rgba(205, 0, 26, 255)
