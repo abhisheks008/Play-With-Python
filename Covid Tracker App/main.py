@@ -6,6 +6,7 @@ from kivymd.app import MDApp
 from kivymd.uix.boxlayout import MDBoxLayout
 from kivymd.uix.relativelayout import MDRelativeLayout
 from kivy.core.text import LabelBase
+from api import getStateInfo
 
 #Defining Window Size
 Window.size = (600, 600)
@@ -20,5 +21,7 @@ class Covid_Tracker(MDApp):
 
     def getData(self):
         print(self.screen.get_screen('screen2').ids.cityName.text)
+        getStateInfo()
+
 
 Covid_Tracker().run()
