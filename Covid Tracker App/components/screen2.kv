@@ -17,7 +17,7 @@
             size_hint: .1, .1
             pos_hint: {"center_x": .5, "center_y": .93}
         MDLabel:
-            id: "province"
+            id: province
             text: "[b]Delhi, India[/b]"
             markup: True
             pos_hint: {"center_x": .5, "center_y": .83}
@@ -29,7 +29,7 @@
             halign: "center"
             font_size: "20sp"
         MDLabel:
-            id: "confirmed"
+            id: confirmed
             text: "[b]56000[/b]"
             markup: True
             pos_hint: {"center_x": .5, "center_y": .62}
@@ -41,19 +41,19 @@
             size_hint: .22, .1
             Image:
                 source: "assets/img/blood.png"
-                pos_hint: {"center_x": .5, "center_y": .5}
+                pos_hint: {"center_x": .4, "center_y": .5}
             MDLabel:
-                id: "deaths"
+                id: deaths
                 text: "[b]40000[/b]"
                 markup: True
                 pos_hint: {"center_x": 1, "center_y": .7}
                 halign: "center"
-                font_size: "18sp"
+                font_size: "23sp"
             MDLabel:
                 text: "Deaths"
                 pos_hint: {"center_x": 1, "center_y": .3}
                 halign: "center"
-                font_size: "14sp"
+                font_size: "19sp"
         MDFloatLayout:
             pos_hint: {"center_x": .6, "center_y": .4}
             size_hint: .22, .1
@@ -61,7 +61,7 @@
                 source: "assets/img/update.png"
                 pos_hint: {"center_x": .55, "center_y": .5}
             MDLabel:
-                id: "lastupdated"
+                id: lastupdated
                 text: "[b]2023-02-12[/b]"
                 markup: True
                 pos_hint: {"center_x": 1.4, "center_y": .32}
@@ -106,7 +106,7 @@
                     cursor_color: 1,1,1,1
                     
             Button:
-                text: "G E T  C O V I D  D A T A"
+                text: "G E T  C O V I D  S T A T S"
                 size_hint: .9, .25
                 font_size: "20sp"
                 pos_hint:{"center_x": .5,"center_y": .29}
@@ -119,5 +119,5 @@
                         size: self.size
                         pos: self.pos
                         radius: [6]   
-                on_release: app.getData()                
+                on_release: app.showData()                
 
