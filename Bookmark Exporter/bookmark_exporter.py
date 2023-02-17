@@ -1,22 +1,22 @@
 import os
 import platform
 
-# Get the user's home directory
+
 if platform.system() == 'Windows':
     home_dir = os.path.expanduser('~').replace('\\', '/')
 else:
     home_dir = os.path.expanduser('~')
 
-# Get the path to the Chrome bookmarks file
+
 chrome_bookmarks_file = f'{home_dir}/AppData/Local/Google/Chrome/User Data/Default/Bookmarks'
 
-# Run a PowerShell command to get the bookmarks from the Chrome bookmarks file
+
 cmd = f'powershell -Command "$json = Get-Content \'{chrome_bookmarks_file}\' -Raw | ConvertFrom-Json; $bookmarks = $json.roots.bookmark_bar.Children + $json.roots.other.Children; $output = \'\'; foreach ($bookmark in $bookmarks) {{ $folder = $bookmark.Parent; while ($folder) {{ $output += \'&nbsp;&nbsp;&nbsp;&nbsp;\'; $folder = $folder.Parent }}; $output += $bookmark.Name + \' => \' + $bookmark.Url + \'&lt;br&gt;\'; }}; $output"'
 
-# Run the command and store the output in a variable
+
 output = os.popen(cmd).read()
 
-# Ask the user what format they want to save the bookmarks in
+
 while True:
     save_format = input('In what format would you like to save your bookmarks? (HTML, PDF, or TXT): ').upper()
     if save_format in ['HTML', 'PDF', 'TXT']:
@@ -24,7 +24,6 @@ while True:
     else:
         print('Invalid format. Please enter HTML, PDF, or TXT.')
 
-# Save the output in the chosen format
 if save_format == 'HTML':
     with open('bookmarks.html', 'w') as f:
         #f.write(f'<html><head><title>Bookmarks</title></head><body>{output}</body></html>')
