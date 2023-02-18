@@ -1,0 +1,123 @@
+#:kivy 1.0
+<Screen2>:
+    name:"screen2"
+    MDFloatLayout:
+        md_bg_color:1,1,1,1
+        MDIconButton:
+            icon: "arrow-left"
+            pos_hint: {"center_y": .95}
+            user_font_size: "30sp"
+            theme_text_color: "Custom"
+            text_color: rgba(143,1,23, 225)
+            on_release:
+                app.root.transition.direction="right"
+                app.root.current = "screen1"
+        Image:
+            source: "assets/img/location.png"
+            size_hint: .1, .1
+            pos_hint: {"center_x": .5, "center_y": .93}
+        MDLabel:
+            id: province
+            text: "[b]Delhi, India[/b]"
+            markup: True
+            pos_hint: {"center_x": .5, "center_y": .83}
+            halign: "center"
+            font_size: "20sp"
+        MDLabel:
+            text: "Confirmed Cases"
+            pos_hint: {"center_x": .5, "center_y": .70}
+            halign: "center"
+            font_size: "20sp"
+        MDLabel:
+            id: confirmed
+            text: "[b]56000[/b]"
+            markup: True
+            pos_hint: {"center_x": .5, "center_y": .62}
+            halign: "center"
+            font_size: "60sp"
+            color:rgba(205, 0, 26, 255)
+        MDFloatLayout:
+            pos_hint: {"center_x": .25, "center_y": .4}
+            size_hint: .22, .1
+            Image:
+                source: "assets/img/blood.png"
+                pos_hint: {"center_x": .4, "center_y": .5}
+            MDLabel:
+                id: deaths
+                text: "[b]40000[/b]"
+                markup: True
+                pos_hint: {"center_x": 1, "center_y": .7}
+                halign: "center"
+                font_size: "23sp"
+            MDLabel:
+                text: "Deaths"
+                pos_hint: {"center_x": 1, "center_y": .3}
+                halign: "center"
+                font_size: "19sp"
+        MDFloatLayout:
+            pos_hint: {"center_x": .6, "center_y": .4}
+            size_hint: .22, .1
+            Image:
+                source: "assets/img/update.png"
+                pos_hint: {"center_x": .55, "center_y": .5}
+            MDLabel:
+                id: lastupdated
+                text: "[b]2023-02-12[/b]"
+                markup: True
+                pos_hint: {"center_x": 1.4, "center_y": .32}
+                halign: "center"
+                font_size: "18sp"
+            MDLabel:
+                text: "Last Updated At"
+                pos_hint: {"center_x": 1.4, "center_y": .7}
+                halign: "center"
+                font_size: "14sp"
+        MDFloatLayout:
+            size_hint_y: .3
+            canvas:
+                Color:
+                    rgb: rgba(252,89,90, 225)
+                RoundedRectangle:
+                    size: self.size
+                    pos: self.pos
+                    radius: [10, 10, 0, 0]
+            MDFloatLayout:
+                pos_hint: {"center_x": .5, "center_y": .71}
+                size_hint: .9, .32
+                canvas:
+                    Color:
+                        rgb: rgba(143,1,23, 225)
+                    RoundedRectangle:
+                        size: self.size
+                        pos: self.pos
+                        radius: [6]
+                TextInput:
+                    id: cityName
+                    hint_text:'Enter Indian State'
+                    size_hint: 1, None
+                    pos_hint: {"center_x": .5, "center_y": .5}
+                    height: self.minimum_height
+                    multiline: False
+                    font_size: "20sp"
+                    hint_text_color: 1,1,1,1
+                    foreground_color: 1,1,1,1
+                    background_color: 1,1,1,0
+                    padding: 15
+                    cursor_color: 1,1,1,1
+                    
+            Button:
+                text: "G E T  C O V I D  S T A T S"
+                size_hint: .9, .25
+                font_size: "20sp"
+                pos_hint:{"center_x": .5,"center_y": .29}
+                background_color:1,1,1,0
+                color: rgba(143,1,23, 225)
+                canvas.before:
+                    Color:
+                        rgb: 1,1,1,1
+                    RoundedRectangle:
+                        size: self.size
+                        pos: self.pos
+                        radius: [6]   
+                on_release: app.showData()                
+
