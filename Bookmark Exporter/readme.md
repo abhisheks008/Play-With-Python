@@ -15,12 +15,17 @@ This tool is developed in Python and uses PowerShell to extract the bookmarks fr
 ### Libraries Needed
 - Os
 - Platform
+- subprocess
+- tkinter
 
 ### Demonstration
 - **INPUT**
  ![input](https://user-images.githubusercontent.com/110530263/219696764-cadb43a9-de0f-45ff-8cec-efd6bba62151.png)
-- **OUTPUT** 
- ![generated output file ](https://user-images.githubusercontent.com/110530263/219696844-297e8380-98d7-4306-822b-0f9e2f564bbc.png)
+- **Selecting A Format** ![output1 selector](https://user-images.githubusercontent.com/110530263/219830405-2879e4fa-41e9-400b-aa81-368d12451157.png)
+
+- **Output Confirmation** ![final output file generation confirmed](https://user-images.githubusercontent.com/110530263/219830442-73f3c9a7-cb4e-4576-9ef2-bcbd9d53ded4.png)
+
+- Generated Output File ![generated output file ](https://user-images.githubusercontent.com/110530263/219696844-297e8380-98d7-4306-822b-0f9e2f564bbc.png)
  - As I chose HTML in input the script generated an html file showing my bookmarks with css pre defined. 
 
 
