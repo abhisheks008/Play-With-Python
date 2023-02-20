@@ -1,7 +1,7 @@
 ## Bookmark Tool
 
 ### Goal
-The goal of this project is to provide an easy-to-use command-line tool that extracts bookmarks from the Chrome bookmarks file and saves them in a user-specified format. 
+The goal of this project is to provide an easy-to-use tool that extracts bookmarks from the Chrome bookmarks file and saves them in a user-specified format. 
 
 ### Description
 This tool is developed in Python and uses PowerShell to extract the bookmarks from the Chrome bookmarks file. It then provides the user with an option to choose the format in which they want to save the bookmarks - HTML, PDF, or TXT.
