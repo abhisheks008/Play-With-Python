@@ -22,11 +22,16 @@ I have implemented the gui for the UI with the help of tkinter [python library] 
 tkinter, pip
 
 **DEMONSTRATION**
-
+## Starting
 ![GUI](https://github.com/yash240408/Play-With-Python/blob/main/Text_Utility/1.png?raw=true "User Interface")
 <br />
+## File Selection
 ![WORKING](https://github.com/yash240408/Play-With-Python/blob/main/Text_Utility/2.png?raw=true "Upon selection of button")
-
+## Before
+![GUI](https://github.com/yash240408/Play-With-Python/blob/main/Text_Utility/3.png?raw=true "User Interface")
+<br />
+## After
+![WORKING](https://github.com/yash240408/Play-With-Python/blob/main/Text_Utility/4.png?raw=true "Upon selection of button")
 **AUTHOR**
 
 Made by Yash Mistry. Connect with me on [Twitter](https://twitter.com/Yash240408) or [LinkedIn](https://www.linkedin.com/in/yashmistry24/).
