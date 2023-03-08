@@ -23,8 +23,9 @@ tkinter, pip
 
 **DEMONSTRATION**
 
-![GUI](/assets/employee.png?raw=true "Employee Data title")
-
+![GUI](https://github.com/yash240408/Play-With-Python/blob/main/Text_Utility/1.png?raw=true "User Interface")
+<br />
+![WORKING](https://github.com/yash240408/Play-With-Python/blob/main/Text_Utility/2.png?raw=true "Upon selection of button")
 
 **AUTHOR**
 
