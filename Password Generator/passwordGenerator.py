@@ -6,6 +6,7 @@ Password Generator
 ------------------
 For yes or no questions, enter 'y' or 'n' respectively. (Case insensitive)
     """)
+    #Test Comment for first commit
     length = int(input("Enter the length of password: "))
     ch = input("Do you want to include special characters? (y/n): ")
     lowerAlphabets = input("Do you want to include lower case alphabets? (y/n): ")
